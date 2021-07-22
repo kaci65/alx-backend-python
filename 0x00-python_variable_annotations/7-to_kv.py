@@ -10,4 +10,5 @@ from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """return a tuple: string as first arg, and squared second argument"""
     return k, v ** 2
