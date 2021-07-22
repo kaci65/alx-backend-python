@@ -8,9 +8,7 @@ from typing import List
 
 def sum_list(input_list: List[int]) -> float:
     """return sum of argument list elements"""
-    # total: float = 0.0
-    # for i in range(len(input_list)):
-    #       total = total + input_list[i]
-    # return total
-
-    return sum(input_list)
+    total: float = 0.0
+    for i in range(len(input_list)):
+        total = total + input_list[i]
+    return total
