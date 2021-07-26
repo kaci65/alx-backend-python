@@ -42,8 +42,8 @@ Take the code from wait_n and alter it into a new function task_wait_n. The code
 
 #### NB:
 Run .main files with python3.7 instead of just python3, example:
-    python3.7 filename <correct>
-    python3 filename <avoid>
+	>>> python3.7 filename <correct>
+	>>> python3 filename <avoid>
 
 Why? -> https://stackoverflow.com/questions/52796630/python3-6-attributeerror-module-asyncio-has-no-attribute-run
 
