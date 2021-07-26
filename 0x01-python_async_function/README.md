@@ -48,10 +48,10 @@ Run .main files with python3.7 instead of just python3, example:
 Why? -> https://stackoverflow.com/questions/52796630/python3-6-attributeerror-module-asyncio-has-no-attribute-run
 
 #### Extra Resources:
-    1. <https://stackoverflow.com/questions/46004745/python-async-co-routine-execution-time>
-    2. <https://stackoverflow.com/questions/42231161/asyncio-gather-vs-asyncio-wait>
-    3. <https://stackoverflow.com/questions/62450624/asyncio-gather-with-generator-expression>
-    4. <https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work>
-    5. <https://medium.com/hackernoon/a-simple-introduction-to-pythons-asyncio-595d9c9ecf8c>
-    6. <https://realpython.com/lessons/what-asyncio/>
-    7. <https://medium.com/analytics-vidhya/python-generators-coroutines-async-io-with-examples-28771b586578>
+    1. https://stackoverflow.com/questions/46004745/python-async-co-routine-execution-time
+    2. https://stackoverflow.com/questions/42231161/asyncio-gather-vs-asyncio-wait
+    3. https://stackoverflow.com/questions/62450624/asyncio-gather-with-generator-expression
+    4. https://stackoverflow.com/questions/49005651/how-does-asyncio-actually-work
+    5. https://medium.com/hackernoon/a-simple-introduction-to-pythons-asyncio-595d9c9ecf8c
+    6. https://realpython.com/lessons/what-asyncio/
+    7. https://medium.com/analytics-vidhya/python-generators-coroutines-async-io-with-examples-28771b586578
