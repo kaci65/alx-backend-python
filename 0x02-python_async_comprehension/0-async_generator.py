@@ -7,12 +7,12 @@ use the random module
 """
 import asyncio
 import random
-# from typing import Generator
-from typing import Optional
+from typing import Generator
+# from typing import Optional
 
 
-# async def async_generator() -> Generator[float, None, None]:
-async def async_generator(arg: Optional[int] = None) -> float:
+# async def async_generator(arg: Optional[int] = None) -> float:
+async def async_generator() -> Generator[float, None, None]:
     """returns random number between 0 and 10"""
     for i in range(10):
         yield (random.uniform(0, 10))
