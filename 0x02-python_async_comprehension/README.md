@@ -32,3 +32,4 @@ Notice that the total runtime is roughly 10 seconds, explain it to yourself
     [Python Typing: Optional](https://docs.python.org/3/library/typing.html#typing.Optional)
     [TypeError: 'task() takes 0 positional arguments but 1 was given' for python asyncio function](https://stackoverflow.com/questions/68405285/task-takes-0-positional-arguments-but-1-was-given-for-python-asyncio-functio)
     [Type hinting generator in python 3.6](https://stackoverflow.com/questions/42531143/type-hinting-generator-in-python-3-6)
+    [PEP 525 -- Asynchronous Generators](https://www.python.org/dev/peps/pep-0525/)
