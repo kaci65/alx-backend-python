@@ -20,6 +20,12 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """return list of all delays"""
     routines = [wait_random(max_delay) for i in range(n)]
     listDelays = []
+
+    routinesList = asyncio.as_completed(routines)
+    listDelays = [await i for i in routinesList]
+
+    """
     for i in asyncio.as_completed(routines):
         listDelays.append(await i)
+    """
     return listDelays
